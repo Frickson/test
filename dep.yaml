@@ -35,7 +35,7 @@ spec:
   selector:
     matchLabels:
       app: php-fpm-nginx
-  replicas: 3
+  replicas: 1
   strategy:
     type: RollingUpdate
     rollingUpdate:
@@ -102,14 +102,17 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  namespace: test
   labels:
     app: php-fpm-nginx
   name: php-fpm-nginx
 spec:
   ports:
-  - name: "9000"
-    port: 9000
-    targetPort: 9000
+  - name: "http"
+    port: 80
+    targetPort: 80
+  - name: "https"
+    port: 443
+    targetPort: 443
   selector:
     app: php-fpm-nginx
+  type: LoadBalancer
