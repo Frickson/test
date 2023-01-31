@@ -15,10 +15,10 @@
       }
     </style>
         <!-- <body style="background-color:Red;">        -->
-        <!-- <body style="background-color:DodgerBlue;"> -->
+        <body style="background-color:DodgerBlue;">
         <!-- <body style="background-color:#AAFF00;"> -->
-        <!-- <body style="background-color:#088F8F;"> -->
-        <body style="background-color:MediumSeaGreen;">
+<!--         <body style="background-color:#088F8F;"> -->
+<!--         <body style="background-color:MediumSeaGreen;"> -->
 
          <div>
          <h1> www.sunway-test.live</h1>
@@ -30,7 +30,7 @@
          <!-- <h1> PROD - Blue v1.14 </h1> -->
 
          <h1> (Production under Observed) </h1>
-         <h1> Green v1.15 </h1>
+         <h1> Blue v1.15 </h1>
         </div>
     </body>
 </html>
