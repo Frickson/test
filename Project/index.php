@@ -30,7 +30,7 @@
          <!-- <h1> PROD - Blue v1.14 </h1> -->
 
          <h1> (Production under Observed) </h1>
-         <h1> Blue v1.15 </h1>
+         <h1> Blue v1.16 </h1>
         </div>
     </body>
 </html>
