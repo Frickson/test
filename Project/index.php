@@ -26,11 +26,11 @@
          <!-- <h1> Red v1.13-<?php date_default_timezone_set("Asia/Kuala_Lumpur");echo date("YmdHis");?> </h1> -->
          <!-- <h1> Blue v1.14-<?php date_default_timezone_set("Asia/Kuala_Lumpur");echo date("YmdHis");?> </h1> -->
          <!-- <h1> SIT - Green v1.14-<?php date_default_timezone_set("Asia/Kuala_Lumpur");echo date("YmdHis");?> </h1> -->
-         <h1> PROD - Red v1.4 </h1>
+         <h1> PROD - Red v1.5 </h1>
          <!-- <h1> PROD - Blue v1.14 </h1> -->
 
          <h1> (Production under Observed) </h1>
-         <h1> red v1.4 </h1>
+         <h1> red v1.5 </h1>
         </div>
     </body>
 </html>
