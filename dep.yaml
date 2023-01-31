@@ -47,22 +47,22 @@ spec:
         app: php-fpm-nginx
     spec:
       affinity:
-    nodeAffinity:
-      requiredDuringSchedulingIgnoredDuringExecution:
-        nodeSelectorTerms:
-        - matchExpressions:
-          - key: chatbot-pod
-            operator: In
-            values:
-            - select
-      preferredDuringSchedulingIgnoredDuringExecution:
-      - weight: 1
-        preference:
-          matchExpressions:
-          - key: chatbot-prefer-pod
-            operator: In
-            values:
-            - select
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: chatbot-pod
+                operator: In
+                values:
+                - select
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - weight: 1
+            preference:
+              matchExpressions:
+              - key: chatbot-prefer-pod
+                operator: In
+                values:
+                - select
       imagePullSecrets:
         - name: default-secret
       containers:
