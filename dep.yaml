@@ -102,6 +102,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
+  namespace: test
   labels:
     app: php-fpm-nginx
   name: php-fpm-nginx
