@@ -3,4 +3,4 @@
 FROM php:7.2-fpm
 WORKDIR /var/www/html/
 RUN mkdir /app
-COPY /project/. /app
+COPY /Project/. /app
