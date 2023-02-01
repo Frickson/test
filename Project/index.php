@@ -14,22 +14,22 @@
         color: white;
       }
     </style>
-<!--         <body style="background-color:Red;">        -->
+        <body style="background-color:Yellow;">       
 <!--         <body style="background-color:DodgerBlue;"> -->
         <!-- <body style="background-color:#AAFF00;"> -->
 <!--         <body style="background-color:#088F8F;"> -->
-        <body style="background-color:MediumSeaGreen;">
+<!--         <body style="background-color:MediumSeaGreen;"> -->
 
          <div>
 <!--          <h1> DevOps Demo</h1> -->
          <!-- <h1> Red v1.13-<?php date_default_timezone_set("Asia/Kuala_Lumpur");echo date("YmdHis");?> </h1> -->
 <!--          <h1> Blue v1.14-<?php date_default_timezone_set("Asia/Kuala_Lumpur");echo date("YmdHis");?> </h1> -->
-         <h1> SIT - Green v1.2-<?php date_default_timezone_set("Asia/Kuala_Lumpur");echo date("YmdHis");?> </h1>
-<!--          <h1> PROD - Red v1.5 </h1> -->
+<!--          <h1> SIT - Green v1.2-<?php date_default_timezone_set("Asia/Kuala_Lumpur");echo date("YmdHis");?> </h1> -->
+         <h1> PROD - Yellow v1.3 </h1>
          <!-- <h1> PROD - Blue v1.14 </h1> -->
 
 <!--          <h1> (Production under Observed) </h1> -->
-         <h1> green v1.2 </h1>
+         <h1> yellow v1.3 </h1>
         </div>
     </body>
 </html>
