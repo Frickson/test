@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Sunway Demo</title>
+        <title>Demo</title>
     </head>
     <style>
       div {
@@ -14,23 +14,22 @@
         color: white;
       }
     </style>
-        <body style="background-color:Red;">       
-<!--         <body style="background-color:DodgerBlue;"> -->
+<!--         <body style="background-color:Red;">        -->
+        <body style="background-color:DodgerBlue;">
         <!-- <body style="background-color:#AAFF00;"> -->
 <!--         <body style="background-color:#088F8F;"> -->
 <!--         <body style="background-color:MediumSeaGreen;"> -->
 
          <div>
-<!--          <h1> www.sunway-test.live</h1> -->
-<!--          <h1> Sunway DevOps Demo</h1> -->
+<!--          <h1> DevOps Demo</h1> -->
          <!-- <h1> Red v1.13-<?php date_default_timezone_set("Asia/Kuala_Lumpur");echo date("YmdHis");?> </h1> -->
-         <!-- <h1> Blue v1.14-<?php date_default_timezone_set("Asia/Kuala_Lumpur");echo date("YmdHis");?> </h1> -->
+<!--          <h1> Blue v1.14-<?php date_default_timezone_set("Asia/Kuala_Lumpur");echo date("YmdHis");?> </h1> -->
          <!-- <h1> SIT - Green v1.14-<?php date_default_timezone_set("Asia/Kuala_Lumpur");echo date("YmdHis");?> </h1> -->
-         <h1> PROD - Red v1.5 </h1>
+<!--          <h1> PROD - Red v1.5 </h1> -->
          <!-- <h1> PROD - Blue v1.14 </h1> -->
 
-         <h1> (Production under Observed) </h1>
-         <h1> red v1.5 </h1>
+<!--          <h1> (Production under Observed) </h1> -->
+         <h1> blue v1.1 </h1>
         </div>
     </body>
 </html>
