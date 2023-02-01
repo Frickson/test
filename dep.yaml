@@ -39,7 +39,7 @@ spec:
         - name: default-secret
       containers:
         - name: php-fpm
-          image: frickson/app:${version}
+          image: frickson/app:${version}-${BUILD_TIMESTAMP}
           imagePullPolicy: Always
           ports:
             - containerPort: 9000
