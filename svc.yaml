@@ -123,6 +123,11 @@ metadata:
   labels:
     app: php-fpm-nginx
   name: php-fpm-nginx
+  annotations:
+    service.beta.kubernetes.io/aws-load-balancer-type: "alb"
+    service.beta.kubernetes.io/aws-load-balancer-scheme: internet-facing
+    service.beta.kubernetes.io/aws-load-balancer-subnets: "subnet-02fb86035e267d27d,subnet-0aabe0c049f248dac,subnet-0f3e712210990e244"
+    service.beta.kubernetes.io/aws-load-balancer-cross-zone-load-balancing-enabled: "true"
 spec:
   ports:
   - name: "http"
