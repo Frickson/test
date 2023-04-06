@@ -109,7 +109,7 @@ metadata:
   annotations:
     service.beta.kubernetes.io/aws-load-balancer-type: "alb"
     service.beta.kubernetes.io/aws-load-balancer-scheme: internet-facing
-    service.beta.kubernetes.io/aws-load-balancer-subnets: "subnet-02fb86035e267d27d,subnet-0aabe0c049f248dac,subnet-0f3e712210990e244"
+    service.beta.kubernetes.io/aws-load-balancer-subnets: "subnet-0b149b35260d3a426,subnet-06a510bc5ac61be62,subnet-07256d2b5c3edc38d"
     service.beta.kubernetes.io/aws-load-balancer-cross-zone-load-balancing-enabled: "true"
 spec:
   ports:
