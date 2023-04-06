@@ -26,13 +26,8 @@ commit_data = data['commits'][0]
 commit_files = commit_data['added'] + commit_data['modified']
 print(commit_files)
 print(commit_sha)
-    # Check if any of the modified or added files are in the specific folder
-folder_path = "abc/"
-folder_files = [f for f in commit_files if f.startswith(folder_path)]
-if not folder_files:
-    print("lol")
-else: 
-    print("nice")
+
+for x in 
 #     return {
 #         'statusCode': 200,
 #         'body': json.dumps('No files modified in the specific folder')
