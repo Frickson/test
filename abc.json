@@ -1,31 +1,7 @@
 {
-    "zen": "Anything added dilutes everything else.",
-    "hook_id": 408589086,
-    "hook": {
-        "type": "Repository",
-        "id": 408589086,
-        "name": "web",
-        "active": true,
-        "events": [
-            "push"
-        ],
-        "config": {
-            "content_type": "form",
-            "insecure_ssl": "0",
-            "url": "Fricksonhttps://vjx266gyu2ynk4ggcwmwkbuwtm0kishd.lambda-url.ap-southeast-1.on.aws/"
-        },
-        "updated_at": "2023-04-06T06:54:50Z",
-        "created_at": "2023-04-06T06:54:50Z",
-        "url": "https://api.github.com/repos/Frickson/test/hooks/408589086",
-        "test_url": "https://api.github.com/repos/Frickson/test/hooks/408589086/test",
-        "ping_url": "https://api.github.com/repos/Frickson/test/hooks/408589086/pings",
-        "deliveries_url": "https://api.github.com/repos/Frickson/test/hooks/408589086/deliveries",
-        "last_response": {
-            "code": null,
-            "status": "unused",
-            "message": null
-        }
-    },
+    "ref": "refs/heads/master",
+    "before": "d3ccd36c125c0d6872b0bb882efaa61569f60dbb",
+    "after": "bdcddab4c5bd88c98c2643b163a18c3836df135f",
     "repository": {
         "id": 442117405,
         "node_id": "R_kgDOGlotHQ",
@@ -33,6 +9,8 @@
         "full_name": "Frickson/test",
         "private": false,
         "owner": {
+            "name": "Frickson",
+            "email": "63042203+Frickson@users.noreply.github.com",
             "login": "Frickson",
             "id": 63042203,
             "node_id": "MDQ6VXNlcjYzMDQyMjAz",
@@ -55,7 +33,7 @@
         "html_url": "https://github.com/Frickson/test",
         "description": null,
         "fork": false,
-        "url": "https://api.github.com/repos/Frickson/test",
+        "url": "https://github.com/Frickson/test",
         "forks_url": "https://api.github.com/repos/Frickson/test/forks",
         "keys_url": "https://api.github.com/repos/Frickson/test/keys{/key_id}",
         "collaborators_url": "https://api.github.com/repos/Frickson/test/collaborators{/collaborator}",
@@ -92,15 +70,15 @@
         "labels_url": "https://api.github.com/repos/Frickson/test/labels{/name}",
         "releases_url": "https://api.github.com/repos/Frickson/test/releases{/id}",
         "deployments_url": "https://api.github.com/repos/Frickson/test/deployments",
-        "created_at": "2021-12-27T09:47:49Z",
+        "created_at": 1640598469,
         "updated_at": "2023-01-31T03:10:14Z",
-        "pushed_at": "2023-04-06T06:14:26Z",
+        "pushed_at": 1680765736,
         "git_url": "git://github.com/Frickson/test.git",
         "ssh_url": "git@github.com:Frickson/test.git",
         "clone_url": "https://github.com/Frickson/test.git",
         "svn_url": "https://github.com/Frickson/test",
         "homepage": null,
-        "size": 74,
+        "size": 75,
         "stargazers_count": 0,
         "watchers_count": 0,
         "language": "PHP",
@@ -124,7 +102,13 @@
         "forks": 0,
         "open_issues": 0,
         "watchers": 0,
-        "default_branch": "master"
+        "default_branch": "master",
+        "stargazers": 0,
+        "master_branch": "master"
+    },
+    "pusher": {
+        "name": "Frickson",
+        "email": "63042203+Frickson@users.noreply.github.com"
     },
     "sender": {
         "login": "Frickson",
@@ -145,5 +129,58 @@
         "received_events_url": "https://api.github.com/users/Frickson/received_events",
         "type": "User",
         "site_admin": false
+    },
+    "created": false,
+    "deleted": false,
+    "forced": false,
+    "base_ref": null,
+    "compare": "https://github.com/Frickson/test/compare/d3ccd36c125c...bdcddab4c5bd",
+    "commits": [
+        {
+            "id": "bdcddab4c5bd88c98c2643b163a18c3836df135f",
+            "tree_id": "2696881be9375e4839f2e2e2f3d1da80cbac5b88",
+            "distinct": true,
+            "message": "test",
+            "timestamp": "2023-04-06T15:22:03+08:00",
+            "url": "https://github.com/Frickson/test/commit/bdcddab4c5bd88c98c2643b163a18c3836df135f",
+            "author": {
+                "name": "frickson",
+                "email": "chrischuax97@hotmail.com",
+                "username": "Frickson"
+            },
+            "committer": {
+                "name": "frickson",
+                "email": "chrischuax97@hotmail.com",
+                "username": "Frickson"
+            },
+            "added": [
+                "abc.json"
+            ],
+            "removed": [],
+            "modified": []
+        }
+    ],
+    "head_commit": {
+        "id": "bdcddab4c5bd88c98c2643b163a18c3836df135f",
+        "tree_id": "2696881be9375e4839f2e2e2f3d1da80cbac5b88",
+        "distinct": true,
+        "message": "test",
+        "timestamp": "2023-04-06T15:22:03+08:00",
+        "url": "https://github.com/Frickson/test/commit/bdcddab4c5bd88c98c2643b163a18c3836df135f",
+        "author": {
+            "name": "frickson",
+            "email": "chrischuax97@hotmail.com",
+            "username": "Frickson"
+        },
+        "committer": {
+            "name": "frickson",
+            "email": "chrischuax97@hotmail.com",
+            "username": "Frickson"
+        },
+        "added": [
+            "abc.json"
+        ],
+        "removed": [],
+        "modified": []
     }
 }
