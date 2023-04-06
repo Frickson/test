@@ -25,33 +25,24 @@ commit_sha = data['after']
 commit_data = data['commits'][0]
 commit_files = commit_data['added'] + commit_data['modified']
 print(commit_files)
+print(commit_sha)
     # Check if any of the modified or added files are in the specific folder
 folder_path = "abc/"
 folder_files = [f for f in commit_files if f.startswith(folder_path)]
 if not folder_files:
     print("lol")
 else: 
-    return{
-            'statusCode': 200,
-            'body': json.dumps('No files modified in the specific folder')
-        }
+    print("nice")
+#     return {
+#         'statusCode': 200,
+#         'body': json.dumps('No files modified in the specific folder')
+#     }
+# print(commit)
+# if ref=="refs/heads/master":
+#     if
 
-    # Trigger the CodePipeline if any of the modified or added files are in the specific folder
-    client = boto3.client('codepipeline')
-    response = client.start_pipeline_execution(
-        name='your-pipeline-name',
-        clientRequestToken=str(commit_sha),
-        trigger={
-            'triggerType': 'Custom',
-            'triggerDetail': json.dumps({
-                'repositoryName': repository_name,
-                'commitSha': commit_sha,
-                'folderFiles': folder_files
-            })
-        }
-    )
-
-    return {
-        'statusCode': 200,
-        'body': json.dumps('Pipeline execution triggered successfully')
-    }
+# "refs/heads/main [\"authapi/README.md\"]"
+# commit= ''.join(commit)
+# print(ref, commit)
+# Closing file
+f.close()
