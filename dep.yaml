@@ -22,7 +22,7 @@ spec:
         - name: default-secret
       containers:
         - name: php-fpm
-          image: frickson/app:{{ CODEBUILD_RESOLVED_SOURCE_VERSION }}
+          image: frickson/app:${CODEBUILD_RESOLVED_SOURCE_VERSION}
           imagePullPolicy: Always
           ports:
             - containerPort: 9000
