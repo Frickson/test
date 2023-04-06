@@ -15,16 +15,16 @@
       }
     </style>
 <!--         <body style="background-color:Yellow;">        -->
-<!--         <body style="background-color:DodgerBlue;"> -->
+        <body style="background-color:DodgerBlue;">
         <!-- <body style="background-color:#AAFF00;"> -->
 <!--         <body style="background-color:#088F8F;"> -->
-        <body style="background-color:MediumSeaGreen;">
+        <!-- <body style="background-color:MediumSeaGreen;"> -->
 
          <div>
 <!--          <h1> DevOps Demo</h1> -->
          <!-- <h1> Red v1.13-<?php date_default_timezone_set("Asia/Kuala_Lumpur");echo date("YmdHis");?> </h1> -->
 <!--          <h1> Blue v1.14-<?php date_default_timezone_set("Asia/Kuala_Lumpur");echo date("YmdHis");?> </h1> -->
-         <h1> SIT - Green v1.3-<?php date_default_timezone_set("Asia/Kuala_Lumpur");echo date("YmdHis");?> </h1>
+         <h1> SIT - Blue v1.3-<?php date_default_timezone_set("Asia/Kuala_Lumpur");echo date("YmdHis");?> </h1>
 <!--          <h1> PROD - Yellow v1.3 </h1> -->
          <!-- <h1> PROD - Blue v1.14 </h1> -->
 
