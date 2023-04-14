@@ -3,7 +3,7 @@ import re
 
 def execute_pipeline(filename):
     for x in filename:
-        execute 
+        execute
 f = open('abc.json')
 testlist = ['added', 'modified']
 exclude_list = ["README.md"]
@@ -11,6 +11,26 @@ commit =[]
 # returns JSON object as 
 # a dictionary
 data = json.load(f)
+  
+ref = data["ref"]
+branch_match = re.match(r"refs/heads/(.*)", ref)
+if branch_match:
+    # If the ref matches the regex pattern "refs/heads/(.*)", extract the branch name
+    branch_name = branch_match.group(1)
+    print(f"Found branch '{branch_name}'")
+else:
+    # If the ref doesn't match the regex pattern, print an error message
+    print(f"Error: Could not extract branch name from ref '{ref}'")
+for x in range(len(testlist)):
+    if(data["commits"][0][testlist[x]]):
+        commit.append(data["commits"][0][testlist[x]])
+        print(ref)
+        if len(commit) > 0:
+            tmp = ' '.join(commit[x])
+            ref = ref + " " + tmp
+        else:
+            ref = ref + " " + commit[x][0]
+print(ref)
 
 output_list = []
 repository_name = data['repository']['name']
@@ -42,8 +62,7 @@ res = [*set(run_list)]
 print(res)
     # if re.search(r'abc/', x):
     #     output_list.append(x)
-if not res:
-    print('dsa')
+
 
 # Print the output list
 # print(output_list)
